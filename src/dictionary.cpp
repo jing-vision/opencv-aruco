@@ -41,7 +41,11 @@ the use of this software, even if advised of the possibility of such damage.
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
 #include "predefined_dictionaries.hpp"
+#if 0
 #include "opencv2/core/hal/hal.hpp"
+#else
+#include "opencv2/hal.hpp"
+#endif
 
 namespace cv {
 namespace aruco {
